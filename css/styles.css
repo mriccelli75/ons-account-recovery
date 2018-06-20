@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: #f4f4f4;
+}
+h1,h2,h3,h4,h5 {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 100%;
+  padding: 25px;
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 800px;
+  overflow: hidden;
+}
+.card .card-header .card-title {
+  font-family: 'Roboto', sans-serif;
+  color: #666;
+  margin-bottom: .75em;
+  font-style: italic;
+  font-weight: 400;
+}
+.card-form {
+  background: #f0ebeb;
+  padding: 20px;
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="search"], input[type="color"], input[type="date"], input[type="datetime-local"], input[type="month"], input[type="number"], input[type="tel"], input[type="time"], input[type="url"], input[type="week"], input[list], input[type="file"], select, textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #c8c8c8;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: 0.5s;
+  outline: none;
+}
+/* input[type="text"],
+   input[typ="email"],
+   input[type="search"], {
+  font-family: 'Open Sans', sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: 0.5s;
+}
+
+.btn-full {
+  padding: 9px 18px;
+  font-size: 18px;
+  line-height: normal;
+  width: 100%;
+}
+.card-form button.btn {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #f3f3f5;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  color: #000000;
+}
+.btn:focus {
+  background-color: #c9c9d2;
+  box-shadow: 0 0 6px rgba(0,0,0,.5);
+  outline: 0;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.card-form button.btn:hover 
+ {
+  background-color: #c9c9d2;
+  text-decoration: none;
+} */
+
+button, .btn {
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  background-image: none;
+  -webkit-appearance: none;
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 16px;
+  line-height: 16px;
+  font-weight: normal;
+  border: 0;
+  border-radius: 5px;
+  margin: 0 3px 6px 3px;
+  color: #000000;
+  background-color: #f3f3f5;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.btn-large {
+  padding: 12px 18px;
+  font-size: 18px;
+  line-height: normal;
+}
+
+.btn:hover, .btn.hover, a .btn:hover, .btn.active {
+  background-color: #c9c9d2;
+  text-decoration: none;
+}
+
+.aptify-control .list-group-item {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
